@@ -1,0 +1,6 @@
+{
+  "name": "SpectraPulse FTIR Studio",
+  "description": "Advanced FTIR spectral analyzer with background subtraction, multi-protocol smoothing and baseline correction, automated peak identification, and comparative quantification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

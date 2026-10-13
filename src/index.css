@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Nordic Sandstone & Verdigris (Editorial Scientific / Nature Chemistry) */
+    --bg-app: #f4f1ea;
+    --bg-surface: #fbf9f5;
+    --bg-panel: #eae5dc;
+    --bg-hover: #dfd9ce;
+    --border: #d0c8bb;
+    --border-light: #ded8cd;
+    --text-primary: #1c221e;
+    --text-secondary: #444c46;
+    --text-muted: #6b756e;
+    --accent-primary: #1e5347;
+    --accent-hover: #163f36;
+    --accent-light: rgba(30, 83, 71, 0.12);
+    --accent-text: #1e5347;
+    --chart-bg: #fbf9f5;
+    --chart-grid: #ded8cd;
+    --chart-axis: #444c46;
+    --badge-bg: #ded8cd;
+    --badge-text: #1c221e;
+    --metric-target: #1e5347;
+    --metric-ref: #b45309;
+  }
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
